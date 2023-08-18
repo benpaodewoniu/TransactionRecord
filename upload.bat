@@ -3,7 +3,7 @@ git switch master
 git add .
 git commit -m 'update'
 git push origin master
-gitbook build
+gitbook build & cd _book
 git switch gh-pages
 git add _book
 git commit -m 'update'
