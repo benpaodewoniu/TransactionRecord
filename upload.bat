@@ -4,7 +4,6 @@ git add .
 git commit -m 'update'
 git push origin master
 gitbook build
-timeout /t 5
 git switch gh-pages
 git add _book
 git commit -m 'update'
